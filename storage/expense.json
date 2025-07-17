@@ -1,0 +1,16 @@
+[
+  {
+    "id": "6e5be21f-8153-46aa-a833-d753e9511b5e",
+    "description": "hello smith",
+    "amount": 300,
+    "date": "2025-07-17T06:24:46.921Z",
+    "category": ""
+  },
+  {
+    "id": "d97c0c4f-c8ee-4241-bc33-eef3014681f8",
+    "description": "het some goods from the store ",
+    "amount": 300,
+    "date": "2025-07-17T06:37:50.552Z",
+    "category": "wlaing"
+  }
+]

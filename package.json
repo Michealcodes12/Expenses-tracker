@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": " expense tracker application to manage your finances. The application should allow users to add, delete, and view their expenses. The application should also provide a summary of the expenses.",
   "homepage": "https://github.com/Michealcodes12/Expenses-tracker#readme",
+  "bin": {
+    "expense-tracker": "./bin/index.js"
+  },
   "bugs": {
     "url": "https://github.com/Michealcodes12/Expenses-tracker/issues"
   },
@@ -13,8 +16,15 @@
   "license": "ISC",
   "author": "Micheal okosun",
   "type": "module",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^14.0.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "uuid": "^11.1.0"
   }
 }
